@@ -43,11 +43,11 @@ import streamlit as st
 from PIL import Image
 from pathlib import Path
 
-st.set_page_config(page_title="小明简历")
+# st.set_page_config(page_title="小明简历")
 
-NAME = "小明"
-profile_pic = Path.cwd() / "profile-pic.png"
-profile_pic = Image.open(profile_pic)
+# NAME = "小明"
+# profile_pic = Path.cwd() / "profile-pic.png"
+# profile_pic = Image.open(profile_pic)
 
 col1, col2 = st.columns(2,gap="small")
 
