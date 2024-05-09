@@ -43,7 +43,7 @@ import streamlit as st
 from PIL import Image
 from pathlib import Path
 
-# st.set_page_config(page_title="小明简历")
+st.set_page_config(page_title="小明简历")
 
 # NAME = "小明"
 # profile_pic = Path.cwd() / "profile-pic.png"
@@ -51,8 +51,8 @@ from pathlib import Path
 
 col1, col2 = st.columns(2,gap="small")
 
-with col1:
-    st.image(profile_pic,width=230)
+# with col1:
+#     st.image(profile_pic,width=230)
     
 with col2:
     st.title(NAME)
