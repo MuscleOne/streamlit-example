@@ -45,7 +45,7 @@ from pathlib import Path
 
 st.set_page_config(page_title="小明简历")
 
-# NAME = "小明"
+NAME = "小明"
 # profile_pic = Path.cwd() / "profile-pic.png"
 # profile_pic = Image.open(profile_pic)
 
